@@ -1,0 +1,621 @@
+body{
+    overflow-x: hidden;
+}
+
+.bg-img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.6);
+    display: block;
+}
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 15px;
+    position: relative;
+    transition: all 0.4s;
+  }
+
+  .nav-link:hover,
+ .nav-link:focus{
+  color: white;
+ }
+
+  .nav-link::after{
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: rgb(0, 183, 255);
+    display: block;
+    opacity: 0;
+    transition: all 0.2s;
+  }
+
+  .nav-link:hover::after,
+  .nav-link:focus::after{
+    opacity: 1;
+  }
+
+  .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    font-family: Soin Sans Pro;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 13%;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .bgtext{
+    position: justify;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  .checkbtn{
+    font-size: 30px;
+    float: right;
+    line-height: 50px;
+    margin-right: 20px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+
+  .Tsample{
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    border: 5px;
+  }
+
+  .PSample{
+    background-color: white;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+
+  .asd{
+    text-align: center;
+    margin-top: 312px;
+  }
+
+  .footer{
+    width: 100%;
+    height: 800px;
+    background: rgb(211, 211, 211);
+  }
+
+  .FooterH1{
+    font-family: var(--typeHeaderPrimary),var(--typeHeaderFallback);
+    font-weight: var(--typeHeaderWeight);
+    letter-spacing: var(--typeHeaderSpacing);
+    line-height: var(--typeHeaderLineHeight);
+    text-align: center;
+    padding-top: 13%;
+  }
+
+  .linknav{
+    font-size: 15px;
+  }
+
+  .iconsize{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 70px;
+  }
+
+  .FooterP{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 0;
+  }
+
+  .footlink{
+    color: black;
+  }
+
+  .footlink:hover,
+ .footlink:focus{
+  color: gray;
+ }
+
+ .footpad{
+  padding-top: 9%;
+ }
+
+ .footlinksec{
+  color: black;
+}
+
+.footlinksec:hover,
+.footlinksec:focus{
+color: gray;
+}
+
+.seconlinkfoot{
+  font-size: 15px;
+}
+
+.navv {
+  display: flex;
+  flex-wrap: wrap;
+  padding-right: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+.navv-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+/*Additional Men*/
+
+.card {
+  width: 18rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  
+}
+
+.card-img-top{
+  width: 100%;
+  height: 300px;
+}
+
+.marmencard{
+  margin-top: 8%;
+  
+}
+
+.bgcard{
+  background-color: whitesmoke ;
+  text-align: center;
+}
+
+.cardmargin{
+  margin-left: 30px;
+}
+
+.cardmarginn{
+  margin-left: 30px;
+}
+
+.firstcardmar{
+  margin-left: 30px;
+}
+
+.twomargintop{
+  margin-top: 0px;
+}
+
+
+
+
+/*Sign Up*/
+.SignUpDiv{
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 9%;
+}
+  
+.SignUpForm{
+  width: 400px;
+  height: 550px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.Form_Padding{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.FormHead{
+  font-family: var(--typeHeaderPrimary),var(--typeHeaderFallback);
+  font-weight: var(--typeHeaderWeight);
+  letter-spacing: var(--typeHeaderSpacing);
+  line-height: var(--typeHeaderLineHeight);
+}
+
+ /*Log IN*/
+ .LogInForm{
+  width: 400px;
+  height: 450px;
+  background-color: whitesmoke;
+  border-radius: 3px;
+  text-align: center;
+}
+
+/*Contact*/
+  .Contact{
+    width: 100%;
+    height: 100%;
+  }
+
+  .HContact{
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  .iconsizeContact{
+    font-size: 150px;
+  }
+
+  .Contactbtn{
+    font-size: 20px;
+    width: 250px;
+  }
+
+  .Contactbtn:hover{
+    background-color: black;
+    color: whitesmoke;
+  }
+
+  .ContactP{
+    padding-top: 10px;
+  }
+
+  .AboutP{
+    font-size: 15px;
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .AboutPP{
+    font-size: 15px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+ /*FAQ's*/
+
+.FAQsDiv{
+  width: 68%;
+  margin-top:7%;
+  margin-left: 15%;
+  padding-top: 3px;
+  padding-left: 3px;
+  padding-bottom: 3px;
+  background-color: rgb(211, 211, 211);
+}
+
+  .ulFaqs{
+    list-style-type: none;
+  }
+
+  .FAQSDivSec{
+    padding-top: 2%;
+  }
+
+  .linkFAQs{
+    color: black;
+    text-decoration: none;
+    margin-left: 16%;
+    font-size: 17px;
+  }
+
+  .linkFAQs:hover{
+    text-decoration: underline;
+    position: relative;
+    transition: all 0.4s;
+  }
+
+  .FAQssDiv{
+    width: 68%;
+    margin-top:35px;
+    margin-left: 15%;
+    padding-top: 3px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(211, 211, 211);
+  }
+
+  .btnFaqs{
+    background-color: white;
+    color: black;
+    border: 0px;
+    width: 80%;
+    text-align: left;
+  }
+
+  .btnFAQSPadding{
+    padding-left: 16%;
+    padding-top: 10px;
+  }
+
+  .dropdown-toggle {
+    white-space: nowrap;
+  }
+
+  .dropdown-toggle:hover{
+   background-color: white;
+   color: black; 
+  }
+
+  .btn-check {
+    position: absolute;
+    pointer-events: none;
+  }
+
+
+
+
+
+/*Tablet*/
+  @media (max-width: 991px) {
+    .h1 {
+      font-size: 65px;
+      padding-top: 30%;
+    }
+
+    .bgtext{
+      padding-top: 30px;
+    }
+
+    .Tsample{
+      font-size: 15px;
+    }
+
+    .asd{
+      text-align: center;
+      margin-top:600px;
+    }
+
+    .seconlinkfoot{
+      font-size: 20px;
+    }
+
+    /* Men Additional*/
+
+    .firstcardmar{
+      margin-left: 60px;
+    }
+
+    .cardmarginn{
+      margin-left: 60px;
+    }
+
+    .twomargintop{
+      margin-top: 20px;
+    }
+
+    /*Sign Up*/
+    .SignUpForm{
+      width: 700px;
+      height: 700px;
+    }
+    
+    .form_P{
+      font-size: 20px;
+    }
+
+    
+    /*Log In*/
+  .LogInForm{
+    width: 700px;
+    height: 550px;
+}
+
+/*Contact*/
+.Contactbtn{
+  width: 200px;
+}
+
+.ContactP{
+  font-size: 20px;
+}
+
+.AboutP{
+  font-size: 20px;
+  text-align: center;
+  padding-top: 3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.AboutPP{
+  font-size: 20px;
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+/*FAQ's*/
+
+.FAQsDiv{
+  width: 100%;
+  margin-left: 0%;
+  padding-left: 10px;
+}
+
+.linkFAQs{
+  margin-left: 0%;
+  font-size: 25px;
+}
+
+.FAQssDiv{
+  width: 100%;
+  margin-left: 0%;
+  padding-left: 10px;
+}
+
+
+  }
+
+
+
+
+
+
+
+ 
+
+@media (max-width: 768px){
+
+  .asd{
+    text-align: center;
+    margin-top:500px;
+  }
+}
+
+
+  
+  /*Mobile*/
+  @media(max-width: 576px){
+    .h1 {
+      font-size: 50px;
+      padding-top: 30%;
+    }
+
+    .bgtext{
+      padding-top: 5%;
+    }
+
+    .linknav{
+      font-size: 15px;
+    }
+
+    .checkbtn{
+      display: block;
+    }
+    .ultop{
+      position: fixed;
+      width: 100%;
+      top: 40px;
+      left: -100%;
+      transition: all .5s;
+    }
+    #check:checked ~ .ultop{
+      left: 0;
+    }
+
+    .Tsample{
+      font-size: 15px;
+    }
+
+    .asd{
+      text-align: center;
+      margin-top: 250px;
+    }
+
+    .iconsize{
+      font-size: 30px;
+    }
+
+    .FooterP{
+      font-size: 10px;
+    }
+
+    .footlink{
+      font-size: 15px;
+    }
+
+    .footlinksec{
+     font-size: 15px;
+    }
+
+    /* Men additional*/
+
+    .marmencard{
+      margin-top: 40%;
+    }
+
+    .card-img-top{
+      width: 100%;
+      height: 150px;
+    }
+
+    .card {
+      width: 11rem;
+    }
+
+    .firstcardmar{
+      margin-left: 4px;
+    }
+
+    .cardmarginn{
+      margin-left: 4px;
+    }
+
+    .marginMenTop{
+      margin-top: 5%;
+    }
+
+    /*Sign Up*/
+
+    .SignUpDiv{
+      padding-top: 15%;
+    }
+
+    .form_P{
+      font-size: 15px;
+    }
+
+/*Log In*/
+  .LogInForm{
+    width: 700px;
+    height: 550px;
+}
+
+  /*Contact*/
+  .iconsizeContact{
+    font-size: 100px;
+  }
+
+  .Contactbtn{
+    font-size: 15px;
+    width: 100px;
+  }
+  
+  .ContactP{
+    font-size: 15px;
+  }
+
+  /*FAQ's*/
+  .linkFAQs{
+    margin-left: 0%;
+    font-size: 20px;
+  }
+
+  
+
+    
+  }
+
+
+
